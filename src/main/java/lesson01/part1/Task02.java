@@ -19,7 +19,8 @@ public class Task02 {
      * 5. Попробуй удалить метод main, в пустом месте написать psvm и нажать tab.
      */
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!\nHello World!\nHello World!");
-    }
+           public static void main (String[] args) {
+            System.out.println("Hello World!\nHello World!\nHello World!");
+           }
 }
+
