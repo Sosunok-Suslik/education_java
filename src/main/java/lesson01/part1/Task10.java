@@ -15,5 +15,9 @@ public class Task10 {
      */
 
     public static void main(String[] args) {
+   double a = 15*3600;
+   double b = 15.5*3600;
+   double x= (b-a);
+   System.out.println(x);
     }
 }
