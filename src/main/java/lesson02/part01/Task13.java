@@ -1,5 +1,7 @@
 package lesson02.part01;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 /**
  * Выведи на экран таблицу умножения 10 на 10 в следующем виде:
  * 1 2 3 4 …
@@ -18,7 +20,12 @@ package lesson02.part01;
 
 public class Task13 {
     public static void main(String[] args) {
-        //напишите тут ваш код
-
+        int i,k=1;
+        for (i=1;i<=10;i++){
+            for (k=1;k<=10;k++){
+                System.out.print(i*k+" ");
+            }
+            System.out.println(" ");
+        }
     }
 }

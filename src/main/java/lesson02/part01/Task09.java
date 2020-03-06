@@ -21,8 +21,12 @@ package lesson02.part01;
  */
 
 public class Task09 {
-    public static void main(String[] args) {
-        //напишите тут ваш код
 
-    }
+        public static void main(String[] args) {
+            int a=1+2;
+            int b=1+2+3;
+            int c=1+2+3+4;
+            int d=1+2+3+4+5;
+            System.out.println(a + b +c + d);
+        }
 }

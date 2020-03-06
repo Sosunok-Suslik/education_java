@@ -21,7 +21,11 @@ import java.util.*;
 
 public class Task17 {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
+        Scanner scanner=new Scanner(System.in);
+        String name=scanner.nextLine();
+        String old=scanner.nextLine();
+        System.out.println( name +" захватит мир через " + old +"лет" );
+
 
     }
 }
